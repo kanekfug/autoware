@@ -76,7 +76,7 @@ artifacts:
         user: autoware
 
 simulations:
-- name: lexus_planning_sim
+  - name: lexus_planning_sim
     type: planning_sim_v2
     simulator:
       deployment:
@@ -93,7 +93,7 @@ simulations:
         sensor_model: sample_sensor_kit
         initialize_duration: "90"
         launch_visualization: "false"
-        
+
 release:
   components:
     - name: planning
