@@ -14,9 +14,9 @@ artifacts:
       source:
         vcstool:
           repositories_files:
-            - autoware.repos
-            - simulator.repos
-            - tools.repos
+            - .repositories/autoware.repos
+            - .repositories/simulator.repos
+            - .repositories/tools.repos
           import_path: src
       environment_variables:
         AUTOWARE_PATH: /home/autoware/pilot-auto
